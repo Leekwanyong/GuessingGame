@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Kimjuim';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_07@1.0/Kimjuim.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    padding: 1rem;
+    margin: 5rem auto;
+    max-width: 1080px;
+    background-color: #000000;
+    border: 1rem dashed #03A9F4;
+    border-radius: 6px;
+    font-family: 'Kimjuim';
+}
+
+/*  Header  */
+.game-reset {
+    padding: 1.5rem;
+    font-weight: bold;
+    background-color: #3F88C5;
+    color: #000000;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.game-reset:hover {
+    background-color: #FF9800;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav p {
+    font-size: 2rem;
+    color: #FF4081;
+}
+
+/*  main  */
+.game-title {
+    text-align: center;
+    font-size: 3rem;
+    color: #FFEB3B;
+    text-decoration: underline;
+    text-decoration-color: #03A9F4;
+    text-decoration-thickness: 6px;
+}
+
+.game-score {
+    text-align: center;
+    color: #FF5252;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    border: 1px solid #FFF;
+    border-radius: 6px;
+}
+
+.game {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-input {
+    padding: 2rem;
+    outline: none;
+    border: white;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.game-btn {
+    padding: 1.5rem;
+    width: 80%;
+    font-weight: bold;
+    background-color: #3F88C5;
+    color: #000000;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.game-btn:hover {
+    background-color: #FF9800;
+}
+
+.game-gueesing {
+    margin-bottom: 2rem;
+}
+
+.game-box {
+    font-size: 1.8rem;
+    color: #FF9800;
+}
